@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FtC50UL32FwgsKBqaS8K0P+E/LUZtPLNU3q/tl7wlCmlNX8dN3ZH4bjraSFeY8LuGpfB9tDeoLpr3GPOBBYueg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tephi\\RiderProjects\\Code2getherChallengeAPI_WPF\\Code2getherChallengeAPI.Core\\Code2getherChallengeAPI.Core\\Code2getherChallengeAPI.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tephi\\.nuget\\packages\\mvvmcross\\7.1.2\\mvvmcross.7.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

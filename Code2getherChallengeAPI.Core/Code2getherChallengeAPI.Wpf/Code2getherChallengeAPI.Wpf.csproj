@@ -10,4 +10,8 @@
       <PackageReference Include="MvvmCross.Platforms.Wpf" Version="7.1.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core.csproj" />
+    </ItemGroup>
+
 </Project>

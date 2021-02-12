@@ -1,8 +1,8 @@
-﻿using System.Windows.Controls;
+﻿using MvvmCross.Platforms.Wpf.Views;
 
 namespace Code2getherChallengeAPI.Wpf.Views
 {
-    public partial class AppView : UserControl
+    public partial class AppView : MvxWpfView
     {
         public AppView()
         {

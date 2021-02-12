@@ -25,6 +25,19 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "Code2getherChallengeAPI.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MvvmCross": "7.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Code2getherChallengeAPI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Code2getherChallengeAPI.Core.dll": {}
+        }
       }
     }
   },
@@ -93,10 +106,16 @@
         "mvvmcross.platforms.wpf.nuspec",
         "readme.txt"
       ]
+    },
+    "Code2getherChallengeAPI.Core/1.0.0": {
+      "type": "project",
+      "path": "../Code2getherChallengeAPI.Core/Code2getherChallengeAPI.Core.csproj",
+      "msbuildProject": "../Code2getherChallengeAPI.Core/Code2getherChallengeAPI.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "Code2getherChallengeAPI.Core >= 1.0.0",
       "MvvmCross.Platforms.Wpf >= 7.1.2"
     ]
   },
@@ -126,7 +145,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Tephi\\RiderProjects\\Code2getherChallengeAPI_WPF\\Code2getherChallengeAPI.Core\\Code2getherChallengeAPI.Core\\Code2getherChallengeAPI.Core.csproj": {
+              "projectPath": "C:\\Users\\Tephi\\RiderProjects\\Code2getherChallengeAPI_WPF\\Code2getherChallengeAPI.Core\\Code2getherChallengeAPI.Core\\Code2getherChallengeAPI.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

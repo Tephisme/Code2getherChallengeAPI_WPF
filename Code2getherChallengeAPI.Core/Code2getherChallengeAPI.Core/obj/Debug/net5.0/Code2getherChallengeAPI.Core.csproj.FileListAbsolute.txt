@@ -1,0 +1,12 @@
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\bin\Debug\net5.0\Code2getherChallengeAPI.Core.deps.json
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\bin\Debug\net5.0\Code2getherChallengeAPI.Core.dll
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\bin\Debug\net5.0\ref\Code2getherChallengeAPI.Core.dll
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\bin\Debug\net5.0\Code2getherChallengeAPI.Core.pdb
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\obj\Debug\net5.0\Code2getherChallengeAPI.Core.csprojAssemblyReference.cache
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\obj\Debug\net5.0\Code2getherChallengeAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\obj\Debug\net5.0\Code2getherChallengeAPI.Core.AssemblyInfoInputs.cache
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\obj\Debug\net5.0\Code2getherChallengeAPI.Core.AssemblyInfo.cs
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\obj\Debug\net5.0\Code2getherChallengeAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\obj\Debug\net5.0\Code2getherChallengeAPI.Core.dll
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\obj\Debug\net5.0\ref\Code2getherChallengeAPI.Core.dll
+C:\Users\Tephi\RiderProjects\Code2getherChallengeAPI_WPF\Code2getherChallengeAPI.Core\Code2getherChallengeAPI.Core\obj\Debug\net5.0\Code2getherChallengeAPI.Core.pdb

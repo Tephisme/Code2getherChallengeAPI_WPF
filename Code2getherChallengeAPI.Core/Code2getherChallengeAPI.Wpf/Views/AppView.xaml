@@ -11,10 +11,9 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <StackPanel Margin="20">
-            <Button Margin="20" mvx:Bi.nd="Command ImageUrl">Give me more love !</Button>
-            <TextBlock Text="{Binding GetImageUrlCommand}"></TextBlock>
-            <!-- <Image Margin="20" Source="{Binding ImageUrl, UpdateSourceTrigger=PropertyChanged}"></Image> -->
-            <Image Margin="20" Source="{Binding Image}"></Image>
+            <Button Margin="20" mvx:Bi.nd="Command GetImageUrlCommand">Give me more love !</Button>
+            <TextBlock Margin="20" FontSize="20" Text="{Binding ImageUrl, UpdateSourceTrigger=PropertyChanged}">Test</TextBlock>
+            <Image Margin="20" Source="{Binding ImageUrl, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Image>
         </StackPanel>
     </Grid>
 </views:MvxWpfView>

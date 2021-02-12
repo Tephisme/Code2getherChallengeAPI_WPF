@@ -30,27 +30,10 @@ namespace Code2getherChallengeAPI.Core.ViewModels
 
         public void GetImageUrl()
         {
-            _imageUrl = GetNewImageUrl();
+            ContactAPI();
         }
 
-        private string GetNewImageUrl()
-        {
-            string url = "";
-
-            string responseBody = ContactAPI().ToString();
-
-            string[] responseBodies = responseBody?.Split('\"');
-
-            foreach (string response in responseBodies)
-            {
-                if (response.StartsWith("http"))
-                    url = response;
-            }
-
-            return url;
-        }
-
-        private async Task<string> ContactAPI()
+        private async Task ContactAPI()
         {
             try
             {
@@ -60,10 +43,18 @@ namespace Code2getherChallengeAPI.Core.ViewModels
                 response.EnsureSuccessStatusCode();
 
                 string responseBody = await response.Content.ReadAsStringAsync();
-                
-                return responseBody;
+                string[] responseBodies = responseBody.Split('\"');
+
+                string url = "";
+                foreach (string body in responseBodies)
+                {
+                    if (body.StartsWith("http"))
+                        url = body;
+                }
+
+                _imageUrl = url;
             }
-            catch (Exception e)
+            catch (HttpRequestException e)
             {
                 Console.WriteLine(e);
                 throw;
